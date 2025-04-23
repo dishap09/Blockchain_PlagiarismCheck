@@ -1,0 +1,16 @@
+{
+  "bucket_hash": "0x047714506cfa352f2f3a848254a6166a21aab7298befc34b7477f2b94abbc5b4",
+  "title": "Improving Mental Health Support through AI-Powered Chatbots",
+  "content": "The growing demand for accessible mental health services has led to the development of AI-powered chatbots as scalable support tools. This paper explores the design and implementation of conversational agents trained on therapeutic dialogue datasets.\n\nOur system provides real-time emotional support, performs sentiment analysis, and offers self-help resources. \n",
+  "author_address": "0x1d510c06CC70c1f37CE9bED36d354949A43E0B6c",
+  "versions": [
+    {
+      "content": "The growing demand for accessible mental health services has led to the development of AI-powered chatbots as scalable support tools. This paper explores the design and implementation of conversational agents trained on therapeutic dialogue datasets.\n\nOur system provides real-time emotional support, performs sentiment analysis, and offers self-help resources. A user-centric evaluation reveals that while not a substitute for professional care, AI chatbots enhance mental health accessibility and provide timely assistance to users in need.\n",
+      "timestamp": 1745307377
+    },
+    {
+      "content": "The growing demand for accessible mental health services has led to the development of AI-powered chatbots as scalable support tools. This paper explores the design and implementation of conversational agents trained on therapeutic dialogue datasets.\n\nOur system provides real-time emotional support, performs sentiment analysis, and offers self-help resources. \n",
+      "timestamp": 1745307427
+    }
+  ]
+}

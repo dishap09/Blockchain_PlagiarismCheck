@@ -1,0 +1,12 @@
+{
+  "bucket_hash": "0x048dd0f2bf77332018e68bc6072c4e8fecab1502ee93f934291d1dc6c8483719",
+  "title": "AI-Driven Mental Health Monitoring Using Social Media Data",
+  "content": "This research explores the use of artificial intelligence techniques, particularly natural language processing (NLP) and sentiment analysis, to monitor mental health conditions through social media platforms. By analyzing user-generated content on platforms like Reddit and Twitter, the system can detect signs of anxiety, depression, and stress in real-time. The proposed model leverages transformer-based architectures such as RoBERTa and BERT, along with enhanced linguistic features, to classify posts into mental health categories. The goal is to assist healthcare professionals in early detection and intervention, while maintaining user privacy and data ethics.",
+  "author_address": "0x1d510c06CC70c1f37CE9bED36d354949A43E0B6c",
+  "versions": [
+    {
+      "content": "This research explores the use of artificial intelligence techniques, particularly natural language processing (NLP) and sentiment analysis, to monitor mental health conditions through social media platforms. By analyzing user-generated content on platforms like Reddit and Twitter, the system can detect signs of anxiety, depression, and stress in real-time. The proposed model leverages transformer-based architectures such as RoBERTa and BERT, along with enhanced linguistic features, to classify posts into mental health categories. The goal is to assist healthcare professionals in early detection and intervention, while maintaining user privacy and data ethics.",
+      "timestamp": 1745342644
+    }
+  ]
+}

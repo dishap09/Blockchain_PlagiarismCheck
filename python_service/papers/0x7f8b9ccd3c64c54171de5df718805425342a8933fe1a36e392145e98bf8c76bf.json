@@ -1,0 +1,12 @@
+{
+  "bucket_hash": "0x7f8b9ccd3c64c54171de5df718805425342a8933fe1a36e392145e98bf8c76bf",
+  "title": "A Distributed Ledger Approach to Peer Review Transparenc",
+  "content": "The peer review process is a cornerstone of academic publishing, yet it often lacks transparency and accountability. Current systems rely heavily on trust and are susceptible to bias, manipulation, and lack of reviewer recognition.\nIn this paper, we propose a distributed ledger-based model that records peer review activities on a blockchain. Each review is timestamped, anonymized where required, and cryptographically linked to both the reviewer and the submission, ensuring integrity and auditability.\nOur architecture uses Ethereum smart contracts for managing review cycles, and IPFS to store large review data and paper drafts off-chain. Reviewers are incentivized through \n",
+  "author_address": "0x7f1C5538A4575462D1636eea42B69679f74F85A8",
+  "versions": [
+    {
+      "content": "The peer review process is a cornerstone of academic publishing, yet it often lacks transparency and accountability. Current systems rely heavily on trust and are susceptible to bias, manipulation, and lack of reviewer recognition.\nIn this paper, we propose a distributed ledger-based model that records peer review activities on a blockchain. Each review is timestamped, anonymized where required, and cryptographically linked to both the reviewer and the submission, ensuring integrity and auditability.\nOur architecture uses Ethereum smart contracts for managing review cycles, and IPFS to store large review data and paper drafts off-chain. Reviewers are incentivized through \n",
+      "timestamp": 1744466730
+    }
+  ]
+}

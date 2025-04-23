@@ -1,0 +1,12 @@
+{
+  "bucket_hash": "0x2645d645791ec18f3f46cb39b258b90bb5b02104d3ba9a9f3348369d76f0bc6b",
+  "title": "A Distributed Ledger Approach to Peer ",
+  "content": "Academic peer review remains essential but suffers from a lack of openness and trust. Many current practices operate without proper validation mechanisms and do little to reward or recognize reviewers, leaving the system vulnerable to bias and inconsistencies.\nOur work introduces a decentralized solution that logs all reviewing activity on a blockchain network. Each evaluation is encoded with cryptographic signatures, enabling both traceability and privacy. Reviews can be made anonymous while still being verifiable and time-stamped.\nWe deploy smart contracts on Ethereum to control and automate the entire review flow. Documents and reviewer feedback are stored externally via IPFS, reducing on-chain data load. To motivate participation, reviewers earn blockchain-based incentives for each contribution.\nSimulations reveal improvements in accountability, transparency, and user engagement. We believe this framework offers a promising direction for reforming the academic evaluation process with fairness and verifiability at its core.",
+  "author_address": "0x7f1C5538A4575462D1636eea42B69679f74F85A8",
+  "versions": [
+    {
+      "content": "Academic peer review remains essential but suffers from a lack of openness and trust. Many current practices operate without proper validation mechanisms and do little to reward or recognize reviewers, leaving the system vulnerable to bias and inconsistencies.\nOur work introduces a decentralized solution that logs all reviewing activity on a blockchain network. Each evaluation is encoded with cryptographic signatures, enabling both traceability and privacy. Reviews can be made anonymous while still being verifiable and time-stamped.\nWe deploy smart contracts on Ethereum to control and automate the entire review flow. Documents and reviewer feedback are stored externally via IPFS, reducing on-chain data load. To motivate participation, reviewers earn blockchain-based incentives for each contribution.\nSimulations reveal improvements in accountability, transparency, and user engagement. We believe this framework offers a promising direction for reforming the academic evaluation process with fairness and verifiability at its core.",
+      "timestamp": 1744610398
+    }
+  ]
+}

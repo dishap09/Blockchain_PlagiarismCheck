@@ -235,13 +235,13 @@ def check_plagiarism():
             
             response = {
                 "original_exists": True,
-                "is_original": bool(similarity < 80),  # Convert to native Python bool
+                "is_original": bool(similarity < 30),  # Convert to native Python bool
                 "similarity_percent": similarity,
                 "similar_papers": [{
                     "title": original_paper["title"],
                     "author": original_paper.get("author_address", "unknown"),
                     "similarity_percent": similarity,
-                    "timestamp": original_paper["versions"][0].get("timestamp", 0),
+                    "timestamp": original_paper["versions"][-1].get("timestamp", 0),
                     "bucket_hash": os.path.splitext(matching_filename)[0]
                 }]
             }
