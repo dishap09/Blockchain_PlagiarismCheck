@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import PlagiarismChecker from './contracts/PlagiarismChecker.json';
 
 import Login from './components/Login';
 import Navigation from './components/Navigation';
@@ -11,11 +12,24 @@ import PaperList from './components/PaperList';
 function App() {
   const [account, setAccount] = useState('');
   const [web3, setWeb3] = useState(null);
+  const [plagiarismChecker, setPlagiarismChecker] = useState(null);
 
-  const handleLogin = (selectedAccount, web3Instance) => {
+
+  const handleLogin = async (selectedAccount, web3Instance) => {
     setAccount(selectedAccount);
     setWeb3(web3Instance);
-  };
+    
+    // Get network ID and deployed contract address
+    const networkId = await web3Instance.eth.net.getId();
+    const deployedNetwork = PlagiarismChecker.networks[networkId];
+    const plagiarismChecker = new web3Instance.eth.Contract(
+        PlagiarismChecker.abi,
+        deployedNetwork && deployedNetwork.address
+    );
+    
+    // Store in state or context
+    setPlagiarismChecker(plagiarismChecker);
+};
 
   const handleLogout = () => {
     setAccount('');

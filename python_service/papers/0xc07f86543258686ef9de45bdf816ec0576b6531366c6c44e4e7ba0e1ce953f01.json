@@ -1,0 +1,16 @@
+{
+  "bucket_hash": "0xc07f86543258686ef9de45bdf816ec0576b6531366c6c44e4e7ba0e1ce953f01",
+  "title": "The Impact of Transformer-Based Models on Mental Health Misinformation Detection",
+  "content": "This paper investigates the use of transformer-based language models, particularly RoBERTa, for detecting mental health misinformation in online content. By combining advanced NLP techniques with domain-specific features such as sentiment scores and knowledge graph validation, the proposed model effectively distinguishes between factual and misleading information. The approach includes class balancing using SMOTE with data augmentation and leverages a mental health knowledge graph to enhance the reliability of predictions.",
+  "author_address": "0x7f1C5538A4575462D1636eea42B69679f74F85A8",
+  "versions": [
+    {
+      "content": "This paper investigates the use of transformer-based language models, particularly RoBERTa, for detecting mental health misinformation in online content. By combining advanced NLP techniques with domain-specific features such as sentiment scores and knowledge graph validation, the proposed model effectively distinguishes between factual and misleading information. The approach includes class balancing using SMOTE with data augmentation and leverages a mental health knowledge graph to enhance the reliability of predictions. Results show significant improvements in classification performance, highlighting the potential of transformer models in combating misinformation related to mental health topics.",
+      "timestamp": 1745557748
+    },
+    {
+      "content": "This paper investigates the use of transformer-based language models, particularly RoBERTa, for detecting mental health misinformation in online content. By combining advanced NLP techniques with domain-specific features such as sentiment scores and knowledge graph validation, the proposed model effectively distinguishes between factual and misleading information. The approach includes class balancing using SMOTE with data augmentation and leverages a mental health knowledge graph to enhance the reliability of predictions.",
+      "timestamp": 1745557788
+    }
+  ]
+}
